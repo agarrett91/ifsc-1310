@@ -61,3 +61,14 @@ body{
     font-family: 'Yellowtail', cursive;
     margin:0;
 }
+
+header.primary nav li a{
+    color:#419FFF;
+    text-decoration:none;
+    text-shadow: 1px 1px #000000;
+    background:red;
+    padding:1px 20px;
+    border-radius:20px 4px;
+    border: 1px solid gray;
+    border-style:groove;
+}
