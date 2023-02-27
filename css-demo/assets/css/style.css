@@ -1,3 +1,63 @@
+/*
+Primary Color: #419FFF
+
+/*
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+header.primary{
+    background-color: #F2E96D;
+    text-align:center;
+    color:#FFFFFF;
+    padding:40px;
+    /* Two Value Top/Bottom */
+    padding: 20px 40px;
+    text-shadow: 1px 1px #000000;
+}
+
+header.primary h1{
+    font-size:2.4rem
+}
+
+header.primary h1 a{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+header.primary h2{
+    color:#011A52
+    font-size:2.2rem;
+}
+
+header.primary nav{
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+header.primary nav ul{
+    display: flex;
+    padding:0;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+header.primary nav li{
+    list-style-type:none;
+}
+
 body{
     background-color: #419FFF;
+}
+
+body{
+    font-family: 'Yellowtail', cursive;
+    margin:0;
 }
