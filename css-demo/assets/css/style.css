@@ -4,6 +4,18 @@ Primary Color: #419FFF
 /*
 /*  ---------------Box Sizing-----------------  */
 
+/*----------Utility Classes----------*/
+
+.container{
+    width:80vw;
+    max-width:960px;
+    margin:40px auto;
+}
+
+
+/*-------Global Styles---------*/
+
+
 html {
     box-sizing: border-box;
   }
@@ -66,9 +78,72 @@ header.primary nav li a{
     color:#419FFF;
     text-decoration:none;
     text-shadow: 1px 1px #000000;
-    background:red;
+    background-color:red;
     padding:1px 20px;
     border-radius:20px 4px;
     border: 1px solid gray;
     border-style:groove;
+    background-color:rgba(0,0,0,.5);
+    transition:0.5s;
+}
+
+header.primary nav li a:hover,
+header.primary nav li a:active {
+    background-color:rgba(0,0,0,.8);
+    text-decoration: underline;
+}
+
+#intro{
+
+}
+
+#intro h2{
+    text-align: center;
+    color:#0fea3e;
+    border-bottom:2px dashed #011A52
+}
+
+#content{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:20px;
+}
+
+#content article.post{
+    box-shadow: 0 6px 10px rgba(0,0,0,.5);
+    padding:10px;
+    border-radius:4px;
+}
+
+#content article.post:hover{
+    box-shadow: none;
+}
+
+article.post figure{
+    margin: 0;
+}
+
+
+/*--------------Responsive Images------*/
+img{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+/*----------Media Queries--------*/
+
+@media screen and (max-width:800px){
+header.primary nav ul{
+        flex-direction:column;
+        max-width:250px;
+        margin:auto;
+        justify-content:space-evenly;
+    }
 }
