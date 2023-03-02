@@ -45,9 +45,16 @@ h6{
     padding: 5px 5px;
 }
 
-img{
-    justify-content: ;
+img[src="img/blue-camaro-covershot.jpg"]{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%;
+}
+
+#footer{
+    text-align: center;
 }
 
 
@@ -59,10 +66,8 @@ img{
 /*----------Media Queries--------*/
 
 @media screen and (max-width:412px){
-    header.primary nav ul{
             flex-direction:column;
             max-width:250px;
             margin:auto;
             justify-content:space-evenly;
         }
-    }
