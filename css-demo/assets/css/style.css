@@ -123,6 +123,16 @@ article.post figure{
     margin: 0;
 }
 
+aside .container{
+    display:flex;
+    padding:20px;
+}
+
+aside .widget{
+    display:block;
+    padding:20px;
+}
+
 
 /*--------------Responsive Images------*/
 img{
