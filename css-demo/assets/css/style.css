@@ -30,6 +30,32 @@ html {
   }
 
 
+
+  /*-------------Links------------*/
+  .primary a:link, a:visited {
+    background-color: none;
+    text-align: center;
+    color:red;
+    display: inline-block;
+    text-decoration: underline;
+  }
+  
+  a:hover, a:active {
+    color: black;
+  }
+
+  #practice h2 a:link, a:visited {
+    background-color: none;
+    text-align: center;
+    color:red;
+    display: inline-block;
+    text-decoration: underline;
+  }
+  
+  a:hover, a:active {
+    color: black;
+  }
+
   
   /*  --------------- Responsive Images -----------------  */
   
@@ -81,8 +107,8 @@ html {
     
   }
 
-  li{
-    background-color: green;
+  .primary li{
+    background-color: blueviolet;
     margin:auto;
   }
 
@@ -106,32 +132,32 @@ html {
   dd + dt{
     color:white;
   }
-  /*  --------------- Global Styles -----------------  */
 
+  li{
+    background-color: aquamarine;
+  }
+  /*  --------------- Global Styles -----------------  */
 
 
   
   body {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-  }
+    font-family: 'Yellowtail', cursive;
+    margin:0;
+    text-size-adjust: auto;
+    font-size: 150%;
+    max-width: 2000px;
+    background-image:linear-gradient(180deg, #63b3ed 0%, #5295cc 25%, #4578a9 50%, #2a4365 100%), linear-gradient(90deg, #2a4365 0%, #2d4d76 25%, #2e5788 50%, #2b6cb0 100%)}
   
+  
+
   header.primary {
-    background-color: #3b638b;
     text-align: center;
-    color: #ffffff;
+    color:black;
     padding: 40px;
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    padding: 20px 40px 20px 40px;
-    padding: 20px 40px;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 1px 1px red;
   }
   
   header.primary h1 {
-    font-size: 2.4rem;
     margin: 20px 0 10px;
   }
   
@@ -165,7 +191,7 @@ html {
     text-decoration: none;
     background-color: #000000;
     background-color: rgba(0, 0, 0, 0.4);
-    padding: 8px 16px;
+    padding: 8px 25px;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.4);
     transition: 0.5s;
@@ -177,7 +203,7 @@ html {
   }
   
   #intro {
-    border-bottom: 1px dotted #c0c0c0;
+    border-bottom: 2px dashed #c0c0c0;
     padding-bottom: 14px;
   }
   
@@ -192,8 +218,15 @@ html {
     flex-direction: row;
     gap: 20px;
     border-bottom: 1px dotted #c0c0c0;
-    padding-bottom:2.6rem;
   }
+
+  img[src="https://via.placeholder.com/300x200"]{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
   
   #content article.post {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -201,6 +234,13 @@ html {
     border-radius: 4px;
     font-size: 0.8rem;
     transition: 0.5s;
+  }
+  figcaption{
+    text-align: center;
+  }
+  
+  time.post-date{
+    text-align: right;
   }
   
   #content article.post:hover {
@@ -224,17 +264,23 @@ html {
   }
   
   article.post a {
-    color: #3b638b;
+    color: black;
   }
   
   article.post a:hover {
     text-decoration: none;
   }
+
+  article.post a:visited{
+    color: red;
+  }
   
   #practice h2{
-    color:red;
+    color:black;
     border-bottom: 1px dotted #000000
   }
+
+  
   
   
   
@@ -275,6 +321,10 @@ html {
     color: #ffffff;
     font-size: 0.9rem;
   }
+
+  #footer{
+    text-align: center;
+}
   
   /*  --------------- Media Queries -----------------  */
   
