@@ -12,7 +12,7 @@ html {
   /*  --------------- Utility Classes -----------------  */
   
   .container {
-    width: 80vw;
+    width: 85vw;
     max-width: 960px;
     margin: 40px auto;
   }
@@ -275,9 +275,21 @@ html {
     color: red;
   }
   
-  #practice h2{
-    color:black;
-    border-bottom: 1px dotted #000000
+  #practice blockquote{
+    border: 1px solid white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px 10px;
+    background-color: red;
+    line-height: 1.4;
+    color: #c0c0c0;
+  }
+
+  #practice cite{
+    font-size: small;
+    font-weight: bold;
+    text-align: right;
+    display: block;
   }
 
   
