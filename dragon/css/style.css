@@ -16,6 +16,18 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   text-shadow: 1px 1px red;
 }
 
+.missions{
+  text-align: center;
+}
+
+table{
+  text-align: center;
+}
+
+table td{
+  text-align: center;
+}
+
 
 /*---------- Navigational Stuff------*/
 
@@ -94,10 +106,11 @@ a {
 	.main-nav {
 		display: flex;
 	}
-	.header {
+	
+  .header {
 		flex-direction: column;
 		align-items: center;
-    	.header{
+    .header{
 		width: 80%;
 		margin: 0 auto;
 		max-width: 1150px;
@@ -105,7 +118,6 @@ a {
 	}
 
 }
-
 @media (min-width: 1025px) {
 	.header {
 		flex-direction: row;
