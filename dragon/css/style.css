@@ -22,6 +22,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   text-shadow: 1px 1px red;
 }
 
+div.launch{
+  display: grid;
+  place-content: center;
+  object-fit: contain;
+  max-height: 600px auto;
+  max-width: 800px auto;
+}
+
 .missions{
   text-align: center;
 }
@@ -34,10 +42,6 @@ table td{
   text-align: center;
 }
 
-div {
-  display: grid;
-  place-content: center;
-}
 
 /*---------- Navigational Stuff------*/
 
@@ -50,6 +54,7 @@ body {
 	margin: 0;
 	min-height: 100vh;
 }
+
 ul {
   margin: 0;
   padding: 0;
