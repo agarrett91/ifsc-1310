@@ -1,6 +1,10 @@
 /*--------- Nav Stuff-------*/
 
-  h2 a:link, a:visited {
+nav{
+    border-bottom:2px dashed #0159C5
+}
+
+h2 a:link, a:visited {
     background-color: none;
     text-align: center;
     color:purple;
@@ -8,13 +12,17 @@
     text-decoration: underline;
   }
   
-  a:hover, a:active {
+a:hover, a:active {
     color: white;
   }
 
 nav a{
     flex-direction: column;
 }
+
+
+
+
 
 
 /*-------- Main Stuff-------*/
@@ -35,7 +43,18 @@ main{
     max-width: 1500px;
   }
 
-h2{
+h1{
+    text-align: center;
+    text-shadow: 1px 1px orange;
+    border-bottom:2px dashed #0159C5
+}
+
+body h2{
+    text-align: left;
+    text-shadow: 1px 1px orange;
+}
+
+main h2{
     text-align: center;
     text-shadow: 1px 1px orange;
 }
