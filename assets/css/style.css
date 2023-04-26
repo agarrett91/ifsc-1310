@@ -4,10 +4,11 @@ nav{
     border-bottom:2px dashed #0159C5
 }
 
-h2 a:link, a:visited {
+
+h2 a:link a:visited {
     background-color: none;
     text-align: center;
-    color:purple;
+    color:red;
     display: inline-block;
     text-decoration: underline;
   }
@@ -57,4 +58,9 @@ body h2{
 main h2{
     text-align: center;
     text-shadow: 1px 1px orange;
+}
+
+a{
+    color: gold;
+    text-shadow: gold 1px 0 10px;
 }
